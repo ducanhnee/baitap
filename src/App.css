@@ -1,0 +1,66 @@
+.app-container {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #1c1c1c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.explore {
+  margin-top: 20px;
+}
+
+.movie-banner {
+  display: flex;
+  align-items: center;
+  background: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movie-banner img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-info {
+  margin-left: 20px;
+}
+
+.new-release {
+  margin-top: 20px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+}
+
+.movie-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 120px;
+  height: 180px;
+  border-radius: 10px;
+}
